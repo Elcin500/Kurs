@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <hgroup >
+                <h4>Chapter 1
+            
+                </h4>
+                <h1>
+                    Siyahi
+                </h1>
+                </hgroup>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ad voluptatem quod exercitationem id commodi recusandae nulla totam, cumque ratione dolore tempore illum, repellat optio aperiam facere. Minima, laborum cum.
+                    Temporibu libero iste asperiores harum eligendi maxime adipisci minima beatae voluptatibus, dolorem porro rerum ex non dolor suscipit neque, velit debitis veniam blanditiis repellat omnis, aperiam ea? Quod, ipsam sequi.
+                    In sit vitae quo aut tempora incidunt impedit totam itaque consectetur eius ad, voluptatem ipsa obcaecati fugiat quidem deserunt est molestias natus minima sequi! Dolorum, praesentium eum! Veniam, ducimus facilis.
+                    Velit animi fugiat ratione, tenetur eveniet expedita, dolor unde voluptatibus sunt dicta ab dolores facere doloribus excepturi doloremque atque voluptatem accusamus error fugit nisi, delectus earum iusto. Veniam, error eos?
+                    Nesciut, eius, excepturi placeat ad mollitia amet est eligendi cumque aspernatur cupiditate quidem corrupti aliquam itaque incidunt ullam nihil sed voluptatem eum consectetur! Repudiandae ducimus dolorem harum illum eveniet voluptate?
+                    
+                </article>
+                <p>
+                    CSS
+                </p>
+                <style>
+                    hgroup{
+                        float: left;
+                
+                    }
+                    .article-p{
+                        color: blue
+                    }
 
+                </style>
+</body>
+</html>
