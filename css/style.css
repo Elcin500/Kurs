@@ -1,3 +1,51 @@
-*{
-    background-color: red;
+body {
+    
+}
+
+div.navbar {
+    height: 570px;
+    width: 220px;
+    padding-top: 148px;
+    position: fixed;
+    line-height: 2;
+
+    background-image: url(https://wallpapershome.com/images/pages/pic_v/12111.jpg);
+
+    opacity: 0.9;
+    
+}
+
+div.navbar :hover{
+
+    color: tomato;
+transition: 0.5s;
+
+}
+
+.left-list {
+
+    list-style-type: none;
+    margin: 0;
+
+
+
+}
+
+div.context {
+    height: 570px;
+    margin-left: 220px;
+}
+
+ul.left-list>li {
+
+    border-bottom: 1px solid #dfe6e9;
+}
+
+
+
+
+
+ul.left-list>li>a {
+    color: rgb(14, 13, 13);
+
 }
