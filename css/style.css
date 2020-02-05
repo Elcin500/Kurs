@@ -1,24 +1,22 @@
-body {
-    
-}
+body {}
 
 div.navbar {
-    height: 570px;
-    width: 220px;
-    padding-top: 148px;
+    height: 660px;
+    width: 290px;
+    padding-top: 120px;
     position: fixed;
     line-height: 2;
 
-    background-image: url(https://wallpapershome.com/images/pages/pic_v/12111.jpg);
+    background-image: url(https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/03/left-menu-background.jpg);
+    background-color: black;
+    opacity: 1;
 
-    opacity: 0.9;
-    
 }
 
-div.navbar :hover{
+div.navbar>ul.left-list :hover {
 
     color: tomato;
-transition: 0.5s;
+    transition: 0.5s;
 
 }
 
@@ -31,21 +29,58 @@ transition: 0.5s;
 
 }
 
+.logo {
+    height: 80px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.logoimg {
+
+    max-height: 100%;
+}
+
 div.context {
     height: 570px;
     margin-left: 220px;
 }
 
-ul.left-list>li {
+ul.left-list>li {}
 
-    border-bottom: 1px solid #dfe6e9;
+.plus-icon {
+    display: inline-block;
+    color: antiquewhite;
+    float: right;
+    padding-right: 10px;
 }
 
 
-
-
-
 ul.left-list>li>a {
-    color: rgb(14, 13, 13);
+    color: rgb(116, 116, 116);
 
+}
+.adds-f{
+    height: 59px;
+   
+}
+
+.adds{
+    display: inline-block;
+    color: azure;
+
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.adds>.addsli>a{
+    color: white;
+}
+.addsli>a>i{
+   padding: 4px; 
+}
+.adds>.addsli>a>i:hover{
+    color: red;
+    transition: 0.5s;
 }
