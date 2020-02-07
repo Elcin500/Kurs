@@ -1,6 +1,4 @@
-body { 
-    
-}
+body {}
 
 div.navbar {
     height: 660px;
@@ -97,9 +95,9 @@ ul.left-list>li>a {
     color: red;
     transition: 0.5s;
 }
-.context{
-   
-}
+
+.context {}
+
 .rightdiv {
     display: inline-block;
     height: 316.500px;
@@ -116,32 +114,36 @@ ul.left-list>li>a {
 
 .context>ul.rightul {
     list-style-type: none;
-    
+
 }
 
 
 .context>ul.rightul>li {
     display: inline-block;
 }
-.armchair{
+
+.armchair {
     display: inline-block;
-    
+
 }
-.armchair>a{
+
+.armchair>a {
     text-decoration: none;
     color: black;
-    display: inline-block;  
+    display: inline-block;
 }
-.armchair>a>span{
+
+.armchair>a>span {
     display: block;
 }
 
-.button{
+.button {
     display: inline-block;
     background-color: white;
 
 }
-.button>a{
+
+.button>a {
     font-size: 12px;
     line-height: 42px;
     font-weight: 400;
@@ -154,16 +156,73 @@ ul.left-list>li>a {
     list-style-type: none;
     letter-spacing: 0px;
     display: block;
-    padding: 0 30px ;
+    padding: 0 30px;
     text-decoration: none;
     float: right;
     margin-left: 30px;
 }
-.pul{
+
+.pul {
     color: red;
 }
-.orange:hover{
+
+.orange:hover {
     color: red;
     transition: 0.4s;
+
+}
+
+.mainhover {
+    position: absolute;
+    bottom: 62px;
+    right: 119px;
+    top: 68px;
+    padding-bottom: 0px;
+    height : 316.500px;
+    width: 317px;
+    left: 0;
+    top: 0;
+}
+
+
+}
+.rightdiv:hover{
+    background-color: #707070;
+    opacity: 0.3;
+    transition: 1s;
+
+}
+
+
+.hoversmall {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 0px;
+    bottom: 62px;
+    right: 119px;
+    top: 68px;
+
+    color: red;
+}
+
+.hoversmall>span::before {
+    content: "";
+    transition: 1s;
+
+}
+
+.hoversmall:hover {
+    
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.hoverson:hover {
+
+
+
+    transition: 1s;
+    font-size: 70px;
 
 }
