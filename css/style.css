@@ -12,6 +12,7 @@ div.navbar {
     opacity: 1;
     left: 0;
     top: 0;
+   
 
 }
 
@@ -96,7 +97,13 @@ ul.left-list>li>a {
     transition: 0.5s;
 }
 
-.context {}
+/* .rightul{
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+} */
 
 .rightdiv {
     display: inline-block;
@@ -172,18 +179,8 @@ ul.left-list>li>a {
     transition: 0.4s;
 
 }
-/* 
-.mainhover {
-    position: absolute;
-    bottom: 62px;
-    right: 119px;
-    top: 68px;
-    padding-bottom: 0px;
-    height: 316.500px;
-    width: 317px;
-    left: 0;
-    top: 0;
-} */
+
+
 
 
 }
@@ -191,30 +188,46 @@ ul.left-list>li>a {
 .rightdiv:hover {
     background-color: #707070;
     opacity: 0.3;
-/* 
+   
+
 
 }
 
 
-.hoversmall {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    padding-bottom: 0px;
-    bottom: 62px;
-    right: 119px;
-    top: 68px;
 
-    color: red;
 
-.hoversmall>span::before{
-       content: "";
-     transition: 1s;
-    }
-    div.hoverson{
-        display:    block;
-    }
    .iconplus{
 
    }
- */
+.iconnew{
+    
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:white;
+   
+}
+.rightdiv:hover .iconnew{
+    opacity: 0.4;
+
+}
+.linkoficon{
+    color: rgb(252, 0, 0);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image{
+    display: block;
+}
