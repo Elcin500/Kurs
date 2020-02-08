@@ -104,6 +104,7 @@ ul.left-list>li>a {
     width: 317px;
     border: solid;
     border-color: white;
+    position:relative;
 }
 
 .rightdiv::before {
@@ -171,25 +172,26 @@ ul.left-list>li>a {
     transition: 0.4s;
 
 }
-
+/* 
 .mainhover {
     position: absolute;
     bottom: 62px;
     right: 119px;
     top: 68px;
     padding-bottom: 0px;
-    height : 316.500px;
+    height: 316.500px;
     width: 317px;
     left: 0;
     top: 0;
-}
+} */
 
 
 }
-.rightdiv:hover{
+
+.rightdiv:hover {
     background-color: #707070;
     opacity: 0.3;
-    transition: 1s;
+/* 
 
 }
 
@@ -204,25 +206,15 @@ ul.left-list>li>a {
     top: 68px;
 
     color: red;
-}
 
-.hoversmall>span::before {
-    content: "";
-    transition: 1s;
+.hoversmall>span::before{
+       content: "";
+     transition: 1s;
+    }
+    div.hoverson{
+        display:    block;
+    }
+   .iconplus{
 
-}
-
-.hoversmall:hover {
-    
-    opacity: 0.2;
-    transition: 1s;
-}
-
-.hoverson:hover {
-
-
-
-    transition: 1s;
-    font-size: 70px;
-
-}
+   }
+ */
