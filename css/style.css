@@ -97,21 +97,19 @@ ul.left-list>li>a {
     transition: 0.5s;
 }
 
-/* .rightul{
-    position: relative;
-    bottom: 0;
-    top: 0;
+.context{
     left: 0;
-    right: 0;
-} */
+}
 
 .rightdiv {
     display: inline-block;
     height: 316.500px;
     width: 317px;
     border: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     position:relative;
+    
+   
 }
 
 .rightdiv::before {
@@ -210,8 +208,8 @@ ul.left-list>li>a {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .3s ease;
-    background-color:white;
+    transition: .3s  ease;
+    background-color:rgb(255, 255, 255);
    
 }
 .rightdiv:hover .iconnew{
