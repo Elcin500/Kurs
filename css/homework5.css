@@ -1,12 +1,17 @@
-body{
+body {
     display: inline;
 }
+
+.main {
+    height: 300vh;
+
+}
+
 .esas {
 
     background-image: url(https://lad-fc.com/img/header-bg-old.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .navbartop {
@@ -81,32 +86,77 @@ body{
     width: 100%;
     height: 834px;
     position: relative;
-    
+
 
 }
-.centerwords{
+
+.centerwords {
     display: inline-block;
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 40px;
     color: white;
 }
 
 
-.centerwords > a{
+.centerwords>a {
     background-color: #fed136;
     text-decoration: none;
-   color: whitesmoke;
-     font-size: 18px;    
-   line-height: 35px;
-   border: 1px solid;
-   border-radius: 10px;
-   display: inline-block;
-   border-color: #fed136;
-width: 175px; 
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    border-color: #fed136;
+    width: 175px;
 
-    
+
+}
+
+.services {
+    text-align: center;
+}
+
+.services>h3 {
+    color: rgb(124, 121, 121);
+    font-style: italic;
+}
+
+.services div {
+    display: inline-block;
+    height: 398px;
+    width: 210px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.services div .lorem {
+    width: 210px;
+    height: 168px;
+}
+
+.icon {
+    display: inline-block;
+    background-color: #ffd94e;
+    border: 1px solid;
+    border-color: #f5d668;
+    border-radius: 50%;
+    width: 139px;
+    height: 128px;
+}
+
+.icon::before {
+    display: inline-block;
+
+}
+
+.icon i {
+    font-size: 100px;
+}
+.lorem>p{
+    color: rgb(92, 92, 92);
 }
