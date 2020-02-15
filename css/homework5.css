@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-    height: 300vh;
+    height: 500vh;
 
 }
 
@@ -22,7 +22,7 @@ body {
     padding-bottom: 25px;
     padding-right: 16px;
     padding-left: 16px;
-    position: fixed;
+     position: fixed;
 
     display: inline-block;
     left: 0;
@@ -154,9 +154,88 @@ body {
 
 }
 
-.icon i {
+.icon i::before {
     font-size: 100px;
 }
 .lorem>p{
     color: rgb(92, 92, 92);
 }
+.portfolio{
+    height: 500px;
+}   
+.portfoliohead{
+    height: 100px;
+    text-align: center;
+}
+
+.portfoliochild{
+    display: inline-block   ;
+    height: 263.500px;
+    width: 210px;
+}
+.img>a>img{
+    width: 210px;
+    height: 157.5px;
+}
+ .img{
+    position: relative;
+    height: 162px;
+} 
+
+.img>:hover .hovercontent {
+    opacity: 1;
+  }
+.hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+/* .hovercontent{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    height: 20px;
+    font-size: 20px;
+   width: 100%;
+    transition: 0.2s;
+} */
+.hovercontent{
+    color: white;
+    height: 20px;
+    font-size: 20px;
+   width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/* .img>a{
+    position: absolute;
+    text-decoration: none;
+    background-color: transparent;
+} */
+ 
+
+.hovercontent>i::before{
+    content: "";
+}
+
+
+/* .img>a:hover i::before{
+   color: white;
+    opacity: 1;
+ 
+
+}  */
