@@ -141,6 +141,7 @@ body {
     padding-top: 144px;
     display: flex;
     border: 1px;
+    justify-content: center;
 }
 
 .addbottom>div {
@@ -266,9 +267,10 @@ h5 {
 
     display: flex;
     height: 440px;
-    margin-left: 111px;
+    /* margin-left: 111px; */
     /* flex-wrap: wrap; */
     /* flex-flow: row wrap; */
+    justify-content: center;
 }
 
 .flex2>div {
@@ -315,6 +317,7 @@ h5 {
     height: 448px;
     /* flex-flow: row wrap; */
     margin-left: 111px;
+    justify-content: center;
 }
 
 .flex3>div {
@@ -428,6 +431,7 @@ h5 {
     height: 200px;
     margin-top: 60px;
     margin-left: 65px;
+    justify-content: center;
 }
 .flexabouta>div{
  width: 379px;
